@@ -33,13 +33,26 @@ A laminated copy of the full survey risk assessment can be found here [electroni
 
 [//] 1 paragraph on Ballerina skirt design
 
-The first known uses of the 'Ballerina skirt' net design for surveying glass eel obstruction by water control structure is by Westcountry Rivers Trust and 
+The first known uses of the 'Ballerina skirt' net design for surveying glass eel obstruction by water control structure are by Westcountry Rivers Trust and the Agri-food and Bio-sciences Institute for NI. 
 
-Initially two sections of the keep net were used to create one ballerina skirt. This was found to be excessive since the height of the actual catch never exceeded that of a single section (~20cm). Including two sections of the keep net in the ballerina skirt design made the weight difficult to lift out of the water and often became caught in marginal vegetation hindering retrieval of the net for checking by volunteers.
+https://wrt.org.uk/project/glass-eel-citizen-science/
+
+Westcountry Rivers Trust implemented the Ballerina Skirt design at tidal pinch points as a trial for sampling glass eels. These pinch point sites were areas where the eels will gather to ascend a barrier or tidal confluence, such as tidal flood gates, weirs, etc. The young eels were attracted to the fresh water outputs and big tides brought them up the rivers searching out a home where they can continue to grow and develop through further life stages.
+
+![A ballerina skirt being deployed as part of the Westcountry Rivers Trust Glass Eel Citizen Science project. Nets were set at high tide to create an artifical refugia for migrating glass eels looking to enter the system. The nets were then checked again at low tide.](DSCN2354.jpg)
+
+The method involves a vertical drop net, otherwise known as the ballerina skirt, that provides refuge for eels while they wait out the tide to access their new habitats, the net bundle is lowered into position and checked regularly through a tidal period, and once high tide is reached the eels will likely continue upstream and leave the refuge of the nets. The drop nets create a refuge for glass eels to hide away within the tidal limit whilst awaiting more preferable conditions, therefore, SWT's recent work may represent one of the first efforts to use Ballerina skirts inland.
+
+SWT made their own nets for surveying glass eel migration into the Catcott Nature Reserve from keep nets, cable ties and polypropylene rope. A trial net was deployed in order to inform design changes that would be made when making future nets. Initially two sections of the keep net were used to create one ballerina skirt. This was found to be excessive since the height of the actual catch never exceeded that of a single section (~20cm). Including two sections of the keep net in the ballerina skirt design made the weight difficult to lift out of the water and often became caught in marginal vegetation hindering retrieval of the net for checking by volunteers.
+
+![A ballerina skirt in-situ on the ditch leading to Catcott Great Fen.](IMG_1091.jpeg)
+
+[//] Photos, photos, photos
 
 [//] 1 paragraph on Ballerina skirt deployment
   
-  
+In contrast to the pipe net, the ballerina skirts were considered to be semi-permeable. 
+
 Location map using ggmap
 
 1.	Collect survey kit from the Avalon Marshes Centre workshop
