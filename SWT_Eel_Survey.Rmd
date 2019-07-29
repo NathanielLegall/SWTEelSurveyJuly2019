@@ -1,32 +1,46 @@
 ---
 title: "Eel_Survey_Report"
 author: "Nathaniel Legall"
-date: "19/07/2019"
+date: "1nm 9/07/2019"
 output: html_document
 ---
 
 
 ## Supported by 
 
+This work was funded as part of European Maritime Fisheries Fund project application ENG2682 managed by the European Commission. 
+
 ## Acknowledgements
 
-## Introduction
-
-[//] 2 paragraphs
+We would like to thank the RSPB for sharing their data and knowledge from monitoring glass eels on the Avalon Marshes.
 
 ## Health and Safety
 
 A laminated copy of the full survey risk assessment can be found here [electronic link location] as well as in the survey kit. Please adhere to the following;
 •	Ditches and streams, particularly those as part of modified systems with water control structures can present a significant health and safety risk
-•	Volunteers must not work alone when checking nets. Checks should be made in at least pairs
+•	Volunteers must not work alone when checking nets. Checks should be made in pairs
 •	Weather-appropriate clothing and equipment, such as waterproofs, hat, and/or sun-cream should be worn
 
 ## European Eels on Avalon Marshes Reserves
-[//] What work has been done before to survey for and protect Eels on the Avalon Marshes reserves and the South West (Westcountry Rivers Trust v)
-[//] What do we already know about the distribution and status of European Eels on the Avalon Marshes Reserves. 
-[//] Present data from RSPB as a time series
+The Avalon Marshes reserves represent a hotspot for European Eel by providing abundant habitat within relative proximity of the Steart Marshes fisheries. There have been a few concerted efforts to collect data on the resident eel population from partners on the Avalon Marshes project and others. The largest known previous effort to survey for European Eel on the Avalon Marhses reserves was carried out by the RSPB reserves team on Ham Wall Nature Reserve. 
 
+[photos of RSPB eel pass]
+The monitoring methodology used by RSPB focussed around a newly installed eel pass allowing for glass eel movement from the South Drain into the reserve compartment. The pass connected to a capture box where eels were manually counted everyday before being moved into the reserve. Data was sporadically collected over several years until 2017. 
 
+[line graph of RSPB Excel data 2011 - 2017, perhaps plot alongside EA's fisheries report?]
+
+Eel surveys have also been carried out in the South-West of England by the Wetland and Wildfowl Trust and Westcountry Rivers Trust.
+
+https://www.wwt.org.uk/discover-wetlands/waterlife-online/2019/06/14/why-the-once-common-european-eel-is-now-critically-endangered-and-what-can-be-done-about-it/17073
+
+As with most wetland reserves, European Eel are most frequently seen by visitors who act as a valuable source of anecdotal data and spot yellow and silver eels being predated by other wetland residents.
+
+[Photo from facebook of Otter or Heron - credit poster and record source and date]
+
+One million elvers were released onto Catcott Great Fen during 2015. Another much smaller number of eels were released onto the South Drain directly North of the Avalon Marshes reserves in May 2019. As part of this EMFF funded project, Westcountry Rivers Trust carried out a fyke net survey on Catcott and Westhay nature reserves. 
+[Include 3 main findings from report as bullet points]
+
+At the time of writing there are no confirmed plans to repeat the fyke net work during 2019.
 
 #  Methodology
 ## Ballerina skirt design 
@@ -50,8 +64,14 @@ SWT made their own nets for surveying glass eel migration into the Catcott Natur
 [//] Photos, photos, photos
 
 [//] 1 paragraph on Ballerina skirt deployment
-  
-In contrast to the pipe net, the ballerina skirts were considered to be semi-permeable. 
+
+Ballerina skirts were set along ditches adjacent to the Catcott Lows and Catcott Great Fen compartments. By placing the ballerina skirt immediately next to culvert pipes providing an area for glass eels to hide whilst they await preferable conditions (ie. warm water, water flowing into the habitat compartment n )
+In contrast to the pipe net, the ballerina skirts have due a permenantly open aperture so were considered semi-permeable and remained set to capture eels for the entirity of the trapping period. Their efficacy for capturing eels on the Catcott Nature Reserve was unknown prior to the 2018 survey season. 
+
+
+--- 
+
+library(ggmap)
 
 Location map using ggmap
 
@@ -76,10 +96,24 @@ A fishing keep net was adapted for installation onto a pipe leading from stop bo
 
 [//] Explanation of recording form
 
+##  Results 
+[//] Table showing survey dates as column heads, wetland species observed, number of eels observed, comments 
 
 ## Data analysis
 
 [//] How did you analyse the data in R?
+
+## Recommendation for further work
+# EA trapping permission
+Permission should be sought from the Environment Agency when intentionally trapping [European Eel]
+(https://www.gov.uk/guidance/permission-to-trap-crayfish-eels-elvers-salmon-and-sea-trout#eel-and-elver-net-and-trap-fishing-authorisation)
+ 
+
+
+# Set Ballerina Skirt on Black Ditch/Back Ditch
+
+# Survey timings
+
 
 ## References
 
