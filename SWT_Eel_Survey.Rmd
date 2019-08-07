@@ -1,7 +1,7 @@
 ---
 title: "Eel_Survey_Report"
 author: "Nathaniel Legall"
-date: "31/07/2019"
+date: "05/08/2019"
 output:
   html_document: default
   pdf_document: default
@@ -67,7 +67,7 @@ The method involves a vertical drop net that provides refuge for eels while they
 
 Ballerina skirts were made from keep nets, cable ties and polypropylene rope. A trial net was deployed in order to inform design changes that would be made when making future nets. Initially two sections of the keep net were used to create one ballerina skirt. This was found to be excessive since the height of the actual catch never exceeded that of a single section (~20cm). Including two sections of the keep net in the ballerina skirt design made the weight difficult to lift out of the water and often became caught in marginal vegetation hindering retrieval of the net for checking by volunteers. Their efficacy for capturing eels on the Catcott Nature Reserve was unknown prior to the 2018 survey season.
 
-Ballerina skirts were set along ditches adjacent to the Catcott Lows and Catcott Great Fen compartments. By placing the ballerina skirt immediately next to culvert pipes we provided an area for glass eels to hide whilst they await preferable conditions (ie. warm water, minimal water flow leaving the reserve). In contrast to the pipe net, the ballerina skirts have a permenantly open aperture so were considered semi-permeable and remained set to capture eels for the entirity of the trapping period. All ballerina skirts were checked every Tuesday and Friday for three consecutive weeks.   
+Ballerina skirts were set along ditches adjacent to the Catcott Lows and Catcott Great Fen compartments. By placing the ballerina skirt immediately next to culvert pipes we provided an area for glass eels to hide whilst they await preferable conditions (ie. warm water, minimal water flow leaving the reserve). It is important to make sure that ballerina skirts were set flat on the bottom of the ditch so that the open top is available to captures from all directions. In contrast to the pipe net, the ballerina skirts have a permenantly open aperture so were considered semi-permeable and remained set to capture eels for the entirity of the trapping period. All ballerina skirts were checked every Tuesday and Friday for three consecutive weeks.   
   
 ![A ballerina skirt in-situ on the ditch leading to Catcott Lows.](IMG_1092.JPG)
 
@@ -75,11 +75,6 @@ Ballerina and pipe net locations on Catcott Nature Reserve
 
 --- 
 ```{r Net location map, echo=FALSE, results=FALSE}
-
-library(ggmap)
-library(Rcpp)
-
-register_google(key="AIzaSyDmKu-eRPeOETSsM8xo2qQL0ifxqGfqhik")
 
 nets <- read.csv("eel_net_locations.csv")
 head(nets)
@@ -92,7 +87,7 @@ geom_point(data = nets, aes(x = y, y = x, color = Type), size = 3)
 Access to the survey site is via the Catcott Nature Reserve Car Park (Grid Ref: ST 39973 41427). The number of individual eels and other wetland species (to family for Family: mollusca) present within each net was recorded using the data collection form. Volunteers were instructed to release their eel captures on the reserve side of the control structure (ie. any eels captured on the ditch adjacent to Catcott Great Fen would be released to the South of the culvert into the reserve). Once captured individuals were returned to the habitat ballerina skirts were set to fish again at their respective points.
 
 # Pipe net deployment
-A fishing keep net was adapted for installation onto the culvert leading from stop boards onto catcott Great Fen. The net was deployed the morning before surveys (Monday and Thursday) to allow for one capture night.
+A fishing keep net was adapted for installation onto the culvert leading from stop boards onto catcott Great Fen. At the beginning of the survey season the pipe net was checked once every three capture nights until it recieved 20 minnow mortalities during the second check. No further significant mortalities were experienced during surveys. As a result the pipe net check frequency was changed and the pipe net was deployed the morning before surveys (Monday and Thursday) to allow for one capture night. 
 
 ![Catcott Great Fen pipe net in-situ](IMG_0995.JPG)
   
@@ -124,7 +119,9 @@ Volunteers were given the open of attached a photo of their total catch. This wo
 Catch data was seperated out for Catcott Lows and Great Fen. Some volunteers might find it useful to complete this using a tally as opposed to a numerical figure. Volunteers were also encouraged to comment on colouration of captured eels to determine their life stage. Other wetland species are frequently captured within the ballerina skirt and pipe net. Recording these wetland species could potentially be a useful source of presence data. 
 
 ##  Results 
-No individuals of the target species *Anguilla anguilla*, European Eel were observed during the survey period. Future surveys should be carried out during peak migration between November to January and March to May. At least 12 other wetland species were observed including smooth newt and roach (see table below). Roach and minnow were frequently observed in the pipe net. We found that these species were already present within the reserve side of the hatch (see photo below) prior to setting the net on the end of the pipe. 
+No individuals of the target species *Anguilla anguilla*, European Eel were observed during the survey period in either the ballerina skirts or the pipe nets set on Catcott Nature Reserve. Future surveys should be carried out during peak migration between November to January and March to May. 
+
+At least 12 other wetland species were observed including smooth newt and roach (see table below). Roach and minnow were frequently observed in the pipe net. We found that individuals of these species were already present within the reserve side of the hatch (see photo below) prior to setting the net on the end of the pipe. 
 
 ![Hatch leading to stop logs between ditch and Catcott Great Fen. Roach already present in the water under the hatch would frequently end up being recorded in the pipe net. Individuals were observed returning to the hatch through the culvert after being released on the reserve](IMG_1061.jpeg)
  
@@ -133,7 +130,6 @@ Survey19 <- read.csv("eel_surveys_May19.csv")
 library(knitr)
 kable(Survey19, caption = 'Raw results from eel surveys conducted between May and June 2019 as part of Brue Valley Eel project. Weather data follows the BTO system. Binary questions on the survey form (eg. photo of total catch taken yes/no, reported in results as yes = 1, no = 0')
 ```
-
 
 
 ## Recommendation for further work
